@@ -17,3 +17,4 @@ pub fn execute_command(cmd: &str, args: &[&str]) -> Result<Output, String> {
         Err(format!("Command {} failed with status: {:?}", cmd, output.status))
     }
 }
+ 
