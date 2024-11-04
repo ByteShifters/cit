@@ -1,0 +1,10 @@
+[package]
+name = "cit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "4.5.20"
+log = "0.4"
+chrono = "0.4"
+env_logger = "0.10"  # Or any other logger backend
